@@ -1,0 +1,17 @@
+lw $1, 0($ra)
+add $1,$2,$3
+# yorum satýrý
+nop
+sub $gp,$18,$s2
+addi $at,$a0,0 
+lb $3, 0($sp)
+sw $t8, 0($s7)
+sb $zero, 0($fp)
+lui $31, 0
+slt $11,$25,$15
+slti $t4, $15, 0
+beq $k0, $t9, 0
+bne $sp, $7, 0
+j 0 
+jr $ra
+jal 0
