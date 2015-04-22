@@ -1,6 +1,6 @@
 lw $1, 0($ra)
 add $1,$2,$3
-# yorum satýrý
+# yorum satiri
 nop
 sub $gp,$18,$s2
 addi $at,$a0,0 
